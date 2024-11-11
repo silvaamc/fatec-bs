@@ -10,5 +10,4 @@
   <img align="center" alt="Miguel-PHP" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
   <img align="center" alt="Miguel-JAVA" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
   <img align="center" alt="Miguel-MySQL" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
-  <img align="center" alt="Miguel-PostGre" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgre/postgre-original.svg" />
 </div>
