@@ -1,0 +1,52 @@
+/* style.css */
+
+/* Estilo geral do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo do formulário */
+form {
+    background-color: #ffffff; /* Cor de fundo branca para o formulário */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor do formulário */
+    max-width: 500px; /* Largura máxima do formulário */
+    margin: auto; /* Centralizar o formulário horizontalmente */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilo dos labels */
+label {
+    display: block; /* Fazer com que os labels ocupem a linha inteira */
+    margin-bottom: 8px; /* Espaço abaixo dos labels */
+    font-weight: bold; /* Negrito para os labels */
+}
+
+/* Estilo dos inputs de texto */
+input[type="text"] {
+    width: calc(100% - 22px); /* Largura total menos espaçamento e bordas */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 16px; /* Espaço abaixo dos campos */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 4px; /* Bordas arredondadas */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+/* Estilo do botão de envio */
+input[type="submit"] {
+    background-color: #007bff; /* Cor de fundo azul */
+    color: #ffffff; /* Cor do texto branca */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mão para indicar que é clicável */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Efeito ao passar o mouse sobre o botão de envio */
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Cor de fundo azul escuro ao passar o mouse */
+}

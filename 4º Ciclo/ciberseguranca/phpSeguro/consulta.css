@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Estrutura da página =======================================================  */
+body {
+    background: linear-gradient(to right, #1F508C, #3184F7);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    background-color: #75BFEA;
+    height: 55%;
+    width: 60%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+    border-radius: 10px;
+    padding: 2% 0 2%;
+}
+
+#caminhoPrincipal {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+/* Centralizar e tratar elementos =======================================================  */
+h1 {
+    font-size: 220%;
+}
+
+#tabelaUsuarios {
+    background-color: #D9D9D9;
+    font-size: 120%;
+    padding: 2%;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+    width: 80%;
+}
+
+#tabelaUsuarios button {
+    color: #fff;
+    background-color: #3184F7;
+    padding: 5%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+thead {
+    font-size: 130%;
+}

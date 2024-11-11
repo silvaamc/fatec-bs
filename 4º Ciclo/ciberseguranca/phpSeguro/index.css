@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Estrutura da página =======================================================  */
+body {
+    background: linear-gradient(to right, #1F508C, #3184F7);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    background-color: #75BFEA;
+    height: 75%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+/* Pesquisa =======================================================  */
+header {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 3% 1% 1.5% 3%;
+    display: inline-block;
+    width: 30%;
+    font-size: 160%;
+}
+
+#pesquisarEntrar {
+    display: flex;
+    margin: 3% 2% 1.5% 4%;
+    width: 50%;
+    align-items: center;
+}
+
+#pesquisar {
+    /* margin: 3% 2% 1.5% 4%; */
+    width: 80%;
+    height: 100%;
+    position: relative;
+
+}
+
+#pesquisar label {
+    position: absolute;
+    left: 10px;
+    top: 16px;
+    transform: translateY(-50%);
+    font-size: 15px;
+
+}
+
+#pesquisar input#pesquisa {
+    height: 80%;
+    width: 80%;
+    padding: 1% 0 1%;
+}
+
+#enviarPesquisa {
+    height: 80%;
+    width: 7%;
+    padding: 1% 0 1%;
+    background-color: #75BFEA;
+    cursor: pointer;
+}
+
+/* Login =======================================================  */
+#entrar {
+    display: inline;
+    margin-left: 5%;
+    width: 25%;
+    height: 100%;
+}
+
+#entrar #user {
+    font-size: 110%;
+    color: #fff;
+    height: 80%;
+}
+
+#entrar #login {
+    height: 80%;
+    font-size: 140%;
+    border: none;
+    background-color: #75BFEA;
+    margin-left: 1%;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+/* Imagens ======================================================= */
+section#imgs {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    margin: auto 20%;
+}
+
+section#imgs #battery {
+    padding-top: 5%;
+}
+
+/* Cookies ======================================================= */
+#cookies {
+    background-color: #fff;
+    display: flex;
+    margin: 2% auto;
+    padding: 1%;
+    border-radius: 10px;
+    width: 55%;
+    align-items: center;
+}
+
+#aceitarCookies {
+    background-color: #00D0FF;
+    padding: 1%;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-left: 3%;
+    cursor: pointer;
+}
