@@ -1,7 +1,7 @@
 # Fatec Rubens Lara
-This repo contains all material developed during my stay in college (Fatec Rubens Lara)
+This repo contains all material developed during my stay in college
 
-### Techs by Semester (Cycle):
+## Techs by Semester (Cycle):
 ### 1º Cycle
 <div>
   <img align="center" alt="Miguel-HTML" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />  
