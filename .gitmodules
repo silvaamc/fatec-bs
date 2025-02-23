@@ -1,15 +1,3 @@
-[submodule "ciclo-1/web-content/br-invest"]
-	path = ciclo-1/web-content/br-invest
-	url = https://github.com/silvaamc/br-invest
-[submodule "ciclo-3/viacep-fetch"]
-	path = ciclo-3/viacep-fetch
-	url = https://github.com/silvaamc/viacep-fetch
-[submodule "ciclo-3/psi/viacep-fetch"]
-	path = ciclo-3/psi/viacep-fetch
-	url = https://github.com/silvaamc/viacep-fetch
-[submodule "ciclo-3/acessibilidade/cine013"]
-	path = ciclo-3/acessibilidade/cine013
-	url = https://github.com/silvaamc/cine013
 [submodule "ciclo-4/ciberseguranca/login-seguro"]
 	path = ciclo-4/ciberseguranca/login-seguro
 	url = https://github.com/silvaamc/login-seguro
